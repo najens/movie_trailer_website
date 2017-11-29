@@ -44,7 +44,7 @@ lion_king = media.Movie(
      "1000_CR0,0,673,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=4sj1MT05lAA")
 ```
-Then update the list of movies to include the updated instances.
+Then update the list of movies to include the updated instances and save the file.
 ```
 # Store the instances of the Movie class in a list called movies.                        
 movies = [lion_king, inception, lotr_fellowship, up, dark_knight, gladiator]
@@ -62,4 +62,3 @@ A [Movie class](media.py) contains the following attributes:
 - movie_release_date: is the release date of the movie dd mmmm yyyy
 - poster_image: is the url of the poster image of the movie
 - trailer_youtube: is the url of the youtube trailer
-  
