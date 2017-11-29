@@ -15,7 +15,9 @@ lion_king = media.Movie(
     ["Irene Mecchi", "Jonathon Roberts", "Linda Woolverton"],
     ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
     "24 June 1994",
-    "https://images-na.ssl-images-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SY1000_CR0,0,673,1000_AL_.jpg",
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS0"
+     "0MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SY1000_CR0"
+     ",0,673,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=4sj1MT05lAA")
                         
 inception = media.Movie(
@@ -31,7 +33,8 @@ inception = media.Movie(
     ["Christopher Nolan"],
     ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
     "16 July 2010",
-    "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5"
+     "BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=d3A3-zSOBT4")
                         
 lotr_fellowship = media.Movie(
@@ -47,7 +50,9 @@ lotr_fellowship = media.Movie(
     ["J.R.R. Tolkien", "Fran Walsh"],
     ["Elijah Wood", "Ian McKellen", "Orlando Bloom"],
     "19 December 2001",
-    "https://images-na.ssl-images-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY999_CR0,0,673,999_AL_.jpg",
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi0"
+     "0MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY999_CR0,"
+     "0,673,999_AL_.jpg"),
     "https://www.youtube.com/watch?v=V75dMMIW2B4")
                              
 up = media.Movie(
@@ -63,7 +68,8 @@ up = media.Movie(
     ["Pete Docter", "Bob Peterson"],
     ["Edward Asner", "Jordan Nagai", "John Ratzenberger"],
     "29 May 2009",
-    "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SY1000_CR0,0,664,1000_AL_.jpg",
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5"
+     "BanBnXkFtZTgwNzE1MzEyMTE@._V1_SY1000_CR0,0,664,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=ZE_V0g9q4g0&pbjreload=10")
                         
 dark_knight = media.Movie(
@@ -80,7 +86,8 @@ dark_knight = media.Movie(
     ["Jonathan Nolan", "Christopher Nolan"],
     ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     "18 July 2008",
-    "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5"
+     "BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=EXeTwQWrcwY")
                           
 gladiator = media.Movie(
@@ -96,7 +103,9 @@ gladiator = media.Movie(
     ["David Franzoni"],
     ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
     "5 May 2000",
-    "https://images-na.ssl-images-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS0"
+     "0MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY"
+     "1000_CR0,0,675,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=ol67qo3WhJk")
 
 # Store the instances of the Movie class in a list called movies.                        
