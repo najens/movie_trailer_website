@@ -53,7 +53,8 @@ lotr_fellowship = media.Movie(
 up = media.Movie(
     "Up",
     ("Seventy-eight year old Carl Fredricksen travels to Paradise Falls in "
-     "his home equipped with balloons, inadvertently taking a young stowaway.",
+     "his home equipped with balloons, inadvertently taking a young "
+     "stowaway."),
     media.Movie.VALID_RATINGS[1],
     "8.3",
     "1h 36min",
@@ -66,8 +67,8 @@ up = media.Movie(
     "https://www.youtube.com/watch?v=ZE_V0g9q4g0&pbjreload=10")
                         
 dark_knight = media.Movie(
-    ("The Dark Knight",
-     "When the menace known as the Joker emerges from his mysterious past, he "
+    "The Dark Knight",
+    ("When the menace known as the Joker emerges from his mysterious past, he "
      "wreaks havoc and chaos on the people of Gotham, the Dark Knight must "
      "accept one of the greatest psychological and physical tests of his "
      "ability to fight injustice."),
