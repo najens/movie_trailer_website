@@ -23,14 +23,24 @@ $ python entertainment_center.py
 ## Customize Movies
 
 Open [entertainment_center.py](entertainment_center.py) in your favorite text editor and edit or add new instances of the [Movie class](media.py).
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 817a7e1f03b2252a9159dcd5ef3deaa6e67fc32d
 ```
 # Create instances of the Movie class.
 lion_king = media.Movie(
     "The Lion King",
+<<<<<<< HEAD
     "Lion cub and future king Simba searches for his identity. His "
     "eagerness to please others and penchant for testing his boundaries "
     "sometimes gets him into trouble.",
+=======
+    ("Lion cub and future king Simba searches for his identity. His " 
+     "eagerness to please others and penchant for testing his boundaries "
+     "sometimes gets him into trouble."),
+>>>>>>> 817a7e1f03b2252a9159dcd5ef3deaa6e67fc32d
     media.Movie.VALID_RATINGS[0],
     "8.5",
     "1h 28min",
@@ -39,12 +49,22 @@ lion_king = media.Movie(
     ["Irene Mecchi", "Jonathon Roberts", "Linda Woolverton"],
     ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
     "24 June 1994",
+<<<<<<< HEAD
     "https://images-na.ssl-images-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SY1000_CR0,0,673,1000_AL_.jpg",
+=======
+    ("https://images-na.ssl-images-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE"
+     "3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_SY"
+     "1000_CR0,0,673,1000_AL_.jpg"),
+>>>>>>> 817a7e1f03b2252a9159dcd5ef3deaa6e67fc32d
     "https://www.youtube.com/watch?v=4sj1MT05lAA")
 ```
 Then update the list of movies to include the updated instances and save the file.
 ```
+<<<<<<< HEAD
 # Store the instances of the Movie class in a list called movies.
+=======
+# Store the instances of the Movie class in a list called movies.                        
+>>>>>>> 817a7e1f03b2252a9159dcd5ef3deaa6e67fc32d
 movies = [lion_king, inception, lotr_fellowship, up, dark_knight, gladiator]
 ```
 A [Movie class](media.py) contains the following attributes:
