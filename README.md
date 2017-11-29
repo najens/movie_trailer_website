@@ -1,6 +1,6 @@
 # movie_trailer_website
 
-movie_trailer_website is a python project that uses class objects to create a movie trailer website. When you run the code, it will create an html page with movie information that will open in your browser. In the webpage, you can read movie details and play a trailer by clicking on a movie container.
+movie_trailer_website is a python project that uses class objects to create a movie trailer website. When you run the program, it will create an html page with movie information that will open in your browser. In the webpage, you can read movie details and play a trailer by clicking on a movie container.
 
 ## Software Requirements
 
