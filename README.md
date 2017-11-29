@@ -22,7 +22,7 @@ $ python entertainment_center.py
 
 ## Customize Movies
 
-Open [entertainment_center.py](entertainment_center.py) in your favorite text editor and edit or add a new instances of the [Movie class](movie.py).
+Open [entertainment_center.py](entertainment_center.py) in your favorite text editor and edit or add new instances of the [Movie class](movie.py).
  
 ```
 # Create instances of the Movie class.
