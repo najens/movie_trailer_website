@@ -171,9 +171,12 @@ def create_movie_tiles_content(movies):
             movie_score=movie.score,
             movie_runtime=movie.runtime,
             movie_producer=movie.producer,
-            movie_directors=str(movie.directors).replace("[","").replace("'","").replace("]",""),
-            movie_writers=str(movie.writers).replace("[","").replace("'","").replace("]",""),
-            movie_stars=str(movie.stars).replace("[","").replace("'","").replace("]",""),
+            movie_directors=str(movie.directors).replace("[", "").replace(
+                "'", "").replace("]", ""),
+            movie_writers=str(movie.writers).replace("[", "").replace(
+                "'", "").replace("]", ""),
+            movie_stars=str(movie.stars).replace("[", "").replace(
+                "'", "").replace("]", ""),
             movie_release_date=movie.release_date,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
