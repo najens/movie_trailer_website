@@ -22,7 +22,7 @@ $ python entertainment_center.py
 
 ## Customize Movies
 
-Open [entertainment_center.py](entertainment_center.py) in your favorite text editor and edit or add a new instances of the Movie class
+Open [entertainment_center.py](entertainment_center.py) in your favorite text editor and edit or add a new instances of the [Movie class](movie.py).
  
 ```
 # Create instances of the Movie class.
@@ -44,7 +44,12 @@ lion_king = media.Movie(
      "1000_CR0,0,673,1000_AL_.jpg"),
     "https://www.youtube.com/watch?v=4sj1MT05lAA")
 ```
-A movie class contains the following attributes:
+Then update the list of movies to include the updated instances.
+```
+# Store the instances of the Movie class in a list called movies.                        
+movies = [lion_king, inception, lotr_fellowship, up, dark_knight, gladiator]
+```
+A [Movie class](media.py) contains the following attributes:
 - movie_title: is the title of the movie
 - movie_storyline: is the storyline of the movie
 - movie_rating: is the rating of the movie
